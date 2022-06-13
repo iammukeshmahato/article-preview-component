@@ -6,10 +6,10 @@
 -  [Screenshot](#Screenshot)
    -  [Desktop Design](#Desktop-Design)
    -  [Desktop Active State](#desktop-design-active-state)
-   -  [Mobile Design](#Screenshot)
-   -  [Mobile Active State](#Screenshot)
+   -  [Mobile Design](#mobile-design)
+   -  [Mobile Active State](#mobile-design-active-state)
 -  [Links](#links)
--  [Build With](#-built-with)
+-  [Build With](#⚙-built-with)
 -  [Author](#author)
 
 ## Overview
@@ -36,7 +36,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Links
 
--  Solution URL: [Click Here](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html-and-css-owVJujYs59)
+-  Solution URL: [Click Here](https://www.frontendmentor.io/solutions/article-preview-component-using-html-css-and-javascript-ht2uSiH8Sh)
 -  Live Site URL: [Click Here](https://iammukeshmahato.github.io/article-preview-component)
 
 ## ⚙ Built with
