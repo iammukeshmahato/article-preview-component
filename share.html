@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Menu</title>
+
+    <style>
+        main{
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .share-container{
+            
+            /* border: 1px solid red; */
+            width: 16rem;
+            height: 4rem;
+            text-align: center;
+            border-radius: 1rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(86, 254, 92);
+            box-shadow: 1px 1px 10px -4px black;
+            position: absolute;
+            
+        }
+
+        /* .share-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:flex-end;
+        } */
+
+        .share-menu ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            /* flex-direction: column; */
+        }
+
+        .share-menu ul li{
+            color: red;
+            margin: 0 8px ;
+            border: 1px solid;
+            padding: 0 8px;
+            
+        }
+
+        .share-menu::after{
+            content: '';
+            position: absolute;
+            height: 2rem;
+            width: 2rem;
+            /* border: 1px solid red; */
+            left: 45%;
+            top: 72%;
+            transform: rotate(45deg);
+            /* z-index: -1; */
+            background-color: rgb(86, 254, 92);
+            /* transform: rotateX(90deg); */
+            /* margin-top: 2rem; */
+            /* box-shadow: 1px 1px 10px -4px black; */
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <div class="share-container">
+            <div class="share-menu">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let container = document.querySelector(".share-container");
+
+        window.addEventListener("mousedown", (e) =>{
+            // e.clientX
+            // console.log("x=",e.clientX, " and y=",e.clientY);
+            container.style = `left:${e.clientX -(115.195+16)}px; top:${e.clientY - (46.078+16)}px;`;
+            // container.style = `left: 100px;
+            // top: 100px;`;
+        })
+    </script>
+</body>
+</html>
